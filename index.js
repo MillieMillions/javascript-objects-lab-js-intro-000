@@ -6,6 +6,6 @@ function updateObjectWithKeyAndValue(object, key, value) {
 
 //
 function updateObjectWithKeyAndValue(object, key, value) {
-  rerturn ([]{ prop: 1, prop2: 2 })
+  return Object.assign({}, object, {[key]: value});
 
 }
